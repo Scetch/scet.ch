@@ -181,6 +181,14 @@ a {
     gap: 20px;
 }
 
+@media screen and (max-height: 710px) {
+    .page-container {
+        align-items: flex-start;
+        height: auto;
+        margin: 20px 0;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .page-container {
         align-items: flex-start;
